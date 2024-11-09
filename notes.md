@@ -13,3 +13,20 @@
 - [b-mc2/sql-create-context](https://huggingface.co/datasets/b-mc2/sql-create-context)
 
 - [NousResearch/Hermes-2-Pro-Mistral-7B](https://huggingface.co/NousResearch/Hermes-2-Pro-Mistral-7B)
+
+## Execution
+
+### #(base) (11/08/24@19:26:21)dbuddenbaum@amd64-01:~$ source ~/Documents/cuda/bin/activate
+
+### #(cuda) (base) (11/08/24@19:26:53)dbuddenbaum@amd64-01:~$ cd Documents/fine_tuning/
+
+### #(cuda) (base) (11/08/24@19:49:22)dbuddenbaum@amd64-01:~/Documents/fine_tuning$ python -m ipykernel install --user --name=cuda --display-name "cuda-gpt"
+Installed kernelspec cuda in /home/dbuddenbaum/.local/share/jupyter/kernels/cuda
+
+### #(cuda) (base) (11/08/24@19:51:12)dbuddenbaum@amd64-01:~/Documents/fine_tuning$ jupyter notebook
+
+```
+[I 2024-11-09 15:25:01.549 ServerApp] Serving notebooks from local directory: /home/dbuddenbaum/Documents/fine_tuning
+    1 active kernel
+    Jupyter Server 2.14.2 is running at:
+```
