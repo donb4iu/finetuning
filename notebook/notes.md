@@ -7,6 +7,9 @@
 
 - [![alt text](image.png) Hugging Face Models](https://huggingface.co/dbuddenbaum)
 
+- [Fine-tune Gemma open models using multiple GPUs on GKE](https://cloud.google.com/kubernetes-engine/docs/tutorials/finetune-gemma-gpu)
+
+- [Serve Gemma open models using GPUs on GKE with vLLM](https://cloud.google.com/kubernetes-engine/docs/tutorials/serve-gemma-gpu-vllm)
 
 ## Datasets
 
